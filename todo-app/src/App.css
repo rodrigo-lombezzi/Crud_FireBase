@@ -1,0 +1,143 @@
+/* Centraliza todos os elementos */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #e7edea;
+}
+
+/* Retângulo ao redor dos elementos */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Estilização básica de input e botões */
+input, button {
+  margin: 10px;
+  padding: 10px;
+  background: #D3D3D3;
+  border: none;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Estilização do cabeçalho */
+.Subject {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilização dos itens de tarefa */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.button-complete, .button-edit, .button-delete {
+  background: #D3D3D3;
+  border: none;
+  cursor: pointer;
+}
+
+.button-complete svg {
+  color: green;
+}
+
+.button-edit svg {
+  color: orange;
+}
+
+.button-delete svg {
+  color: red;
+}
+/* Centraliza todos os elementos */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #e7edea;
+}
+
+input, button {
+  margin: 10px;
+  padding: 10px;
+  background: #D3D3D3;
+  border: none;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Estilização do cabeçalho */
+.Subject {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilização dos itens de tarefa */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 5px 0;
+}
+
+.button-complete, .button-edit, .button-delete {
+  background: #D3D3D3;
+  border: none;
+  cursor: pointer;
+}
+
+.button-complete svg {
+  color: green;
+}
+
+.button-edit svg {
+  color: orange;
+}
+
+.button-delete svg {
+  color: red;
+}
